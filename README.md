@@ -9,7 +9,7 @@
 
 | Categoría | Tecnologías / Herramientas |
 | :--- | :--- |
-| **Backend Logic** | **C#** = **Java** (Enfoque en lógica de negocio) |
+| **Backend** | **C#** = **Java** (Enfoque en lógica de negocio) |
 | **Bases de Datos** | SQL Server, MySQL |
 | **QA / Análisis** | Casos de Prueba, **Casos de Uso**, Reporte de Bugs, User Stories. *(Transición a Automation)* |
 | **Idiomas** | Español (Nativo), **Inglés (Avanzado)**, Svenska (Básico) |
@@ -23,6 +23,13 @@
 * **Autonomía:** Aprendizaje basado en documentación oficial y ejecución práctica.
 
 ---
+
+### 🎓 Formación Académica
+
+* **Tecnicatura en Tecnologías de la Información** | *UTN-STF*
+* **Estado:** Pausa estratégica momentánea para especialización intensiva en **AF Técnico** y **QA Manual Técnico**.
+  * **Highlight:** Aprobada la cátedra de **Análisis de Sistemas de Información (ASI)**.
+    * *Competencias adquiridas:* Relevamiento de requerimientos, Modelado de procesos, Ciclo de Vida (SDLC) y Diagramado lógico. Entendimiento y aplicación de Casos de Uso.
 
 ### 🚀 Estado Actual
 
