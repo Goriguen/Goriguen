@@ -1,5 +1,5 @@
 ### Hola, soy Gabriel Origüen
-**QA Manual | Technical Functional Analyst in Training**
+**QA Manual | QA AUTOMATION IN PROGRESS**
 
 > *No me especializo en UI. Me interesa la lógica, la integridad de los datos y la calidad del software.*
 
