@@ -1,5 +1,5 @@
 ### Hola, soy Gabriel Origüen
-**QA AUTOMATION | MANUAL**
+**QA ENGINEER | QA AUTOMATION**
 
 > *No me especializo en UI. Me interesa la lógica, la integridad de los datos y la calidad del software.*
 
@@ -9,9 +9,9 @@
 
 | Categoría | Tecnologías / Herramientas |
 | :--- | :--- |
-| **Backend** | **Java** = **C#** (Enfoque en lógica de negocio) |
+| **Backend** | **Java** && **C#** (Enfoque en lógica de negocio) |
 | **Bases de Datos** | SQL Server, MySQL |
-| **QA / Análisis** | Casos de Prueba, **Casos de Uso**, Reporte de Bugs, User Stories. *(Transición a Automation)* |
+| **QA / Análisis** | Casos de Prueba, **Casos de Uso**, Reporte de Bugs, User Stories. |
 | **Idiomas** | Español (Nativo), **Inglés (Avanzado)**, Svenska (Básico) |
 
 ---
@@ -20,21 +20,20 @@
 
 * **Lógica Deductiva:** Capacidad para desglosar requerimientos complejos y detectar inconsistencias funcionales.
 * **Comunicación Técnica:** Precisión en la redacción de documentación y reportes. Sin ambigüedades.
-* **Autonomía:** Aprendizaje basado en documentación oficial y ejecución práctica.
-
+* **Autonomía:** Investigación de comportamientos del sistema usando documentación oficial y ejecución de pruebas (manuales y automatizadas) para validar hipótesis.
 ---
 
 ### 🎓 Formación Académica
 
 * **Tecnicatura en Tecnologías de la Información** | *UTN-STF*
-* **Estado:** Pausa estratégica momentánea para especialización intensiva en **AF Técnico** y **QA Manual Técnico**.
+* **Estado:** Pausa estratégica momentánea por especialización en área  **QA AUTOMATION**.
   * **Highlight:** Aprobada la cátedra de **Análisis de Sistemas de Información (ASI)**.
     * *Competencias adquiridas:* Relevamiento de requerimientos, Modelado de procesos, Ciclo de Vida (SDLC) y Diagramado lógico. Entendimiento y aplicación de Casos de Uso.
 
 ### 🚀 Estado Actual
 
-* **Aprendiendo:** Fundamentos de Testing Manual, Ciclo de Vida del Software (SDLC), SQL avanzado.
-* **Objetivo:** Consolidar perfil como **QA Manual / Analista Funcional** con proyección inmediata a **QA Automation**.
+* **Aprendiendo:** Selenium, pruebas de API Automatizadas con JS, SQL avanzado.
+* **Objetivo:** Consolidar perfil como **QA ENGINEER** con proyección inmediata a **QA Automation**.
 
 ---
 
