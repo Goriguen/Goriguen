@@ -12,6 +12,7 @@
 | **Backend** | **Javascript**, **Java** && **C#** (Enfoque en lógica de negocio) |
 | **Bases de Datos** | SQL Server, MySQL |
 | **QA / Análisis** | Casos de Prueba, **Casos de Uso**, Reporte de Bugs, User Stories. |
+| **Gestión** | **Jira**, **Github Projects** |
 | **Idiomas** | Español (Nativo), **Inglés (Avanzado)**, Svenska (Básico) |
 | **API-Testing** | **Postman** |
 | **UI** | **Selenium** |
