@@ -1,7 +1,7 @@
 ### Hola, soy Gabriel Origüen
 **QA ENGINEER | QA AUTOMATION**
 
-> *No me especializo en UI. Me interesa la lógica, la integridad de los datos y la calidad del software.*
+> *Me interesa la lógica, la integridad de los datos y la calidad del software.*
 
 ---
 
