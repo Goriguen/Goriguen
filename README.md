@@ -36,7 +36,7 @@
 ### 🚀 Estado Actual
 
 * **Aprendiendo:** Selenium, pruebas de API Automatizadas con JS, SQL avanzado.
-* **Objetivo:** Consolidar perfil como **QA ENGINEER** con proyección inmediata a **QA Automation**.
+* **Objetivo:** Consolidar perfil como **QA Automation** con proyección hacia **SDET**.
 
 ---
 
