@@ -9,7 +9,7 @@
 
 | Categoría | Tecnologías / Herramientas |
 | :--- | :--- |
-| **Backend** | **Java**|**C#** (Enfoque en lógica de negocio) |
+| **Backend** | **Java**,**C#** (Enfoque en lógica de negocio) |
 | **Bases de Datos** | SQL Server, MySQL |
 | **QA / Análisis** | Casos de Prueba, **Casos de Uso**, Reporte de Bugs, User Stories. |
 | **Gestión** | **Jira**, **Github Projects** |
