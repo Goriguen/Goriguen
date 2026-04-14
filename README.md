@@ -29,14 +29,14 @@
 ### 🎓 Formación Académica
 
 * **Tecnicatura en Tecnologías de la Información** | *UTN-STF*
-* **Estado:** Pausa estratégica momentánea por especialización en área  **QA AUTOMATION**.
+* **Estado:** En curso.
   * **Highlight:** Aprobada la cátedra de **Análisis de Sistemas de Información (ASI)**.
     * *Competencias adquiridas:* Relevamiento de requerimientos, Modelado de procesos, Ciclo de Vida (SDLC) y Diagramado lógico. Entendimiento y aplicación de Casos de Uso.
 
 ### 🚀 Estado Actual
 
-* **Aprendiendo:** Selenium, pruebas de API Automatizadas con JS, SQL avanzado.
-* **Objetivo:** Consolidar perfil como **QA Automation** con proyección hacia **SDET**.
+* **Aprendiendo:** Selenium, pruebas de API Automatizadas con ResAssured, SQL avanzado.
+* **Objetivo:** Consolidar perfil como **QA Automation** con proyección hacia **SDET** / **AppSec**.
 
 ---
 
