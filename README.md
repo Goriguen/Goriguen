@@ -1,5 +1,5 @@
 ### Hola, soy Gabriel Origüen
-**QA AUTOMATION** con proyección a **SDET | App Sec**
+**SDET Junior** con proyección a App Sec**
 
 > *Me interesa la lógica, la integridad de los datos y la calidad del software.*
 
