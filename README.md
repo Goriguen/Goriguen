@@ -1,5 +1,5 @@
 ### Hola, soy Gabriel Origüen
-**SDET Junior** con proyección a **App Sec**
+**QA AUTOMATION Junior** con proyección a **App Sec / SDET**
 
 > *Me interesa la lógica, la integridad de los datos y la calidad del software.*
 
@@ -35,7 +35,7 @@
 
 ### 🚀 Estado Actual
 
-* **Aprendiendo:** Selenium, pruebas de API Automatizadas con ResAssured, SQL avanzado.
+* **Aprendiendo:** Selenium/Playwright, pruebas de API Automatizadas con RestAssured, SQL avanzado.
 * **Objetivo:** Consolidar perfil como **QA Automation** con proyección hacia **SDET** / **AppSec**.
 
 ---
