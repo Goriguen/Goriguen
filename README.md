@@ -11,11 +11,12 @@
 | :--- | :--- |
 | **Backend** | **Java**-**C#** (Enfoque en lógica de negocio) |
 | **Bases de Datos** | SQL Server, MySQL |
-| **QA / Análisis** | Casos de Prueba, Casos de Uso, Reporte de Bugs, User Stories. |
+| **QA / Análisis** | Casos de Prueba con BDD (Gherkin, Cucumber), SonarQube, Jacoco |
 | **Gestión** | **Jira**, **Github Projects** |
 | **Idiomas** | Español (Nativo), **Inglés (Avanzado)**, Svenska (Básico) |
-| **API-Testing** | **RestAssured**, **Postman** |
+| **API-Testing** | **RestAssured**, **Postman (Newman)** |
 | **UI** | **Selenium**, **Playwright** |
+| **IA** | **Spec-Driven-Development (SDD)**, **SKILLS** | **Reglas de negocio** |
 
 ---
 
