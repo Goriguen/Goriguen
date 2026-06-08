@@ -17,6 +17,7 @@
 | **API-Testing** | **Postman (Newman)** , **RestAssured** (en proceso),  |
 | **UI** | **Selenium**, **Playwright** | **EN PROCESO**
 | **IA** | **Spec-Driven-Development (SDD)**, **SKILLS** | **Reglas de negocio** |
+| **AUTOMATIZACIÓN** | **n8n**, | **PROXIMAMENTE** | **Reglas de negocio** |
 
 ---
 
