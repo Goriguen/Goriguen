@@ -9,7 +9,7 @@
 
 | Categoría | Tecnologías / Herramientas |
 | :--- | :--- |
-| **Backend** | **Java (Spring Boot 3) , **JPA/Hibernate** , **REST APIs** (Enfoque en lógica de negocio) |
+| **Backend** | **Java (Spring Boot 3)** , **JPA/Hibernate** , **REST APIs** (Enfoque en lógica de negocio) |
 | **Bases de Datos** | MySQL , SQL Server  |
 | **Testing & Calidad** | JUnit, con BDD (Gherkin, Cucumber), Postman, Newman (CLI), SonarQube, Jacoco |
 | **Gestión** | **Jira**, **Github Projects** |
