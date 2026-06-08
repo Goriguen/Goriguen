@@ -1,5 +1,5 @@
 ### Hola, soy Gabriel Origüen
-**IA ANALYST JR / QA AUTOMATION Junior** con proyección a **App Sec / SDET**
+**IA ANALYST JR / QA AUTOMATION Jr** con proyección a **App Sec / SDET**
 
 > *Me interesa la lógica, la integridad de los datos y la calidad del software.*
 
