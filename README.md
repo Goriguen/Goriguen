@@ -1,5 +1,5 @@
 ### Hola, soy Gabriel Origüen
-**QA AUTOMATION Junior** con proyección a **App Sec / SDET**
+**IA ANALYST JR / QA AUTOMATION Junior** con proyección a **App Sec / SDET**
 
 > *Me interesa la lógica, la integridad de los datos y la calidad del software.*
 
@@ -9,13 +9,13 @@
 
 | Categoría | Tecnologías / Herramientas |
 | :--- | :--- |
-| **Backend** | **Java**-**C#** (Enfoque en lógica de negocio) |
-| **Bases de Datos** | SQL Server, MySQL |
-| **QA / Análisis** | Casos de Prueba con BDD (Gherkin, Cucumber), SonarQube, Jacoco |
+| **Backend** | **Java (Spring Boot 3) , **JPA/Hibernate** , **REST APIs** (Enfoque en lógica de negocio) |
+| **Bases de Datos** | MySQL , SQL Server  |
+| **Testing & Calidad** | JUnit, con BDD (Gherkin, Cucumber), Postman, Newman (CLI), SonarQube, Jacoco |
 | **Gestión** | **Jira**, **Github Projects** |
-| **Idiomas** | Español (Nativo), **Inglés (Avanzado)**, Svenska (Básico) |
-| **API-Testing** | **RestAssured**, **Postman (Newman)** |
-| **UI** | **Selenium**, **Playwright** |
+| **Idiomas** | Español (Nativo), **Inglés B2+**, Svenska (A2) |
+| **API-Testing** | **Postman (Newman)** , **RestAssured** (en proceso),  |
+| **UI** | **Selenium**, **Playwright** | **EN PROCESO**
 | **IA** | **Spec-Driven-Development (SDD)**, **SKILLS** | **Reglas de negocio** |
 
 ---
