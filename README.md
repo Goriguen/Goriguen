@@ -23,22 +23,20 @@
 
 ### 🗣️ Soft Skills
 
-* **Lógica Deductiva:** Capacidad para desglosar requerimientos complejos y detectar inconsistencias funcionales.
-* **Comunicación Técnica:** Precisión en la redacción de documentación y reportes. Sin ambigüedades.
-* **Autonomía:** Investigación de comportamientos del sistema usando documentación oficial y ejecución de pruebas (manuales y automatizadas) para validar hipótesis.
+* **Lógica Deductiva:** Desgloso requerimientos complejos, detecto inconsistencias funcionales y anticipo edge cases antes de la implementación.
+* **Comunicación Técnica:** Documentación y reportes precisos, sin ambigüedades. Capacidad para traducir conceptos técnicos a lenguaje de negocio.
+* **Autonomía:** Valido hipótesis combinando documentación oficial, pruebas manuales y automatizadas. No espero que alguien me diga qué está roto — lo encuentro.
 ---
 
 ### 🎓 Formación Académica
 
-* **Tecnicatura en Tecnologías de la Información** | *UTN-STF*
-* **Estado:** En curso.
-  * **Highlight:** Aprobada la cátedra de **Análisis de Sistemas de Información (ASI)**.
-    * *Competencias adquiridas:* Relevamiento de requerimientos, Modelado de procesos, Ciclo de Vida (SDLC) y Diagramado lógico. Entendimiento y aplicación de Casos de Uso.
+* **Tecnicatura en Tecnologías de la Información** | *UTN* **En Curso**
+  * **Highlight:** → Análisis de Sistemas de Información (ASI) *aprobada*: relevamiento de requerimientos, modelado de procesos, SDLC, diagramado lógico y Casos de Uso.
 
-### 🚀 Estado Actual
+### 🚀 En este momento
 
-* **Aprendiendo:** Selenium/Playwright, pruebas de API Automatizadas con RestAssured, SQL avanzado.
-* **Objetivo:** Consolidar perfil como **QA Automation** con proyección hacia **SDET** / **AppSec**.
+* **Consolidando:** Selenium/Playwright, RestAssured, SQL avanzado.
+* **Objetivo:** Consolidar perfil como QA Automation Jr con proyección a SDET / AppSec, e IA Analyst Jr con foco en integración de agentes, orquestación y automatización inteligente de procesos.
 
 ---
 
