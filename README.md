@@ -11,13 +11,12 @@
 | :--- | :--- |
 | **Backend** | **Java (Spring Boot 3)** , **JPA/Hibernate** , **REST APIs** (Enfoque en lógica de negocio) |
 | **Bases de Datos** | MySQL , SQL Server  |
-| **Testing & Calidad** | JUnit, con BDD (Gherkin, Cucumber), Postman, Newman (CLI), SonarQube, Jacoco |
+| **Testing & Calidad** | JUnit, BDD (Gherkin), Postman, Newman (CLI), SonarQube, Jacoco |
 | **Gestión** | **Jira**, **Github Projects** |
 | **Idiomas** | Español (Nativo), **Inglés B2+**, Svenska (A2) |
-| **API-Testing** | **Postman (Newman)** , **RestAssured** (en proceso),  |
+| **API-Testing** | **Postman (Newman)** |
 | **UI** | **Selenium**, **Playwright** | **EN PROCESO**
 | **IA** | **Spec-Driven-Development (SDD)**, **SKILLS** | **Reglas de negocio** |
-| **AUTOMATIZACIÓN** | **n8n**, **PROXIMAMENTE** <--> **Reglas de negocio** |
 
 ---
 
