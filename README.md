@@ -15,8 +15,10 @@
 | **Gestión** | **Jira**, **Github Projects** |
 | **Idiomas** | Español (Nativo), **Inglés B2+**, Svenska (A2) |
 | **API-Testing** | **Postman (Newman)** |
-| **UI** | **Selenium**, **Playwright** | **EN PROCESO**
-| **IA** | **Spec-Driven-Development (SDD)**, **SKILLS** | **Reglas de negocio** |
+| **UI** | **Selenium**, **Playwright** | 
+| **Arquitectura con IA** | **Spec-Driven-Development (SDD)**, **SKILLS** | **Reglas de negocio** |
+| **IA** | Claude Code , Gemini Pro |
+
 
 ---
 
