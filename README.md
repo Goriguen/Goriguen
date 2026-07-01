@@ -11,7 +11,7 @@ Me interesa la lógica detrás de cada sistema: cómo se mueve un dato, dónde p
 
 | Categoría | Tecnologías / Herramientas |
 | :--- | :--- |
-| **Backend** | **Java (Spring Boot 3)** , **JPA/Hibernate** , **REST APIs** (Enfoque en lógica de negocio) |
+| **Backend** | **Java (Spring Boot 3)** , **Spring AI**, **JPA/Hibernate** , **REST APIs** (Enfoque en lógica de negocio) |
 | **Bases de Datos** | MySQL , SQL Server  |
 | **Testing & Calidad** | JUnit, BDD (Gherkin), Postman, Newman (CLI), SonarQube, Jacoco |
 |**Seguridad & Infraestructura | **Linux (gestión de usuarios, permisos, grupos), SSH Hardening (autenticación por clave, principio de mínimo privilegio), Ansible (Infrastructure as Code), Docker, Nginx** |
