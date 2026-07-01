@@ -1,7 +1,9 @@
 ### Hola, soy Gabriel Origüen
-**IA ANALYST JR / QA AUTOMATION Jr** con proyección a **App Sec / SDET**
+## 🎯 QA Automation Jr · IA Analyst Jr · Proyección a SecOps/AppSec / SDET
 
-> *Me interesa la lógica, la integridad de los datos y la calidad del software.*
+**Asegurador de calidad, integridad de datos y seguridad de software.**
+
+Me interesa la lógica detrás de cada sistema: cómo se mueve un dato, dónde puede romperse, y quién tiene permiso de tocarlo. Combino testing funcional/API/UI con fundamentos reales de seguridad de infraestructura (control de acceso, hardening, automatización con IaC) — no busco solo confirmar que algo funciona, busco entender bajo qué condiciones deja de funcionar o se vuelve vulnerable.
 
 ---
 
@@ -12,7 +14,8 @@
 | **Backend** | **Java (Spring Boot 3)** , **JPA/Hibernate** , **REST APIs** (Enfoque en lógica de negocio) |
 | **Bases de Datos** | MySQL , SQL Server  |
 | **Testing & Calidad** | JUnit, BDD (Gherkin), Postman, Newman (CLI), SonarQube, Jacoco |
-| **Gestión** | **Jira**, **Github Projects** |
+|**Seguridad & Infraestructura | **Linux (gestión de usuarios, permisos, grupos), SSH Hardening (autenticación por clave, principio de mínimo privilegio), Ansible (Infrastructure as Code), Docker, Nginx** |
+| **Marcos de referencia** | **CIS Benchmarks (Linux/SSH), OWASP Top 10, NIST 800-53 (control de acceso)** |*Gestión** | **Jira**, **Github Projects** |
 | **Idiomas** | Español (Nativo), **Inglés B2+**, Svenska (A2) |
 | **API-Testing** | **Postman (Newman)** |
 | **UI** | **Selenium**, **Playwright** | 
@@ -36,8 +39,17 @@
 
 ### 🚀 En este momento
 
-* **Consolidando:** Selenium/Playwright, RestAssured, SQL avanzado.
-* **Objetivo:** Consolidar perfil como QA Automation Jr con proyección a SDET / AppSec, e IA Analyst Jr con foco en integración de agentes, orquestación y automatización inteligente de procesos.
+- **Consolidando:** Selenium/Playwright, RestAssured, SQL avanzado, hardening de infraestructura y automatización con Ansible.
+- **Objetivo:** Consolidar perfil como QA Automation Jr con proyección a SDET / AppSec, e IA Analyst Jr con foco en integración de agentes, orquestación y automatización inteligente de procesos.
+
+---
+
+## 📂 Proyectos destacados
+
+| Repo | Foco |
+|---|---|
+| [StockFreezer-QA-AUTOMATION-Framework](https://github.com/Goriguen/StockFreezer-QA-AUTOMATION-Framework) | Testing E2E/API con Playwright, BDD, CI/CD |
+| [StockFreezer-CYBERSECURITY-Framework](https://github.com/Goriguen/StockFreezer-CYBERSECURITY-Framework) | Hardening y automatización de seguridad sobre infraestructura propia en producción |
 
 ---
 
