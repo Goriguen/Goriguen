@@ -17,7 +17,7 @@
 | **API-Testing** | **Postman (Newman)** |
 | **UI** | **Selenium**, **Playwright** | 
 | **Arquitectura con IA** | **Spec-Driven-Development (SDD)**, **SKILLS** | **Reglas de negocio** |
-| **IA** | Claude Code , Gemini Pro |
+| **Modelos de LLM** | Claude Code , Gemini Pro, Ollama (llama3) |
 
 
 ---
