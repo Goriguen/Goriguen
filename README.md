@@ -82,7 +82,8 @@ Sostengo en producción un sistema de gestión de inventario gastronómico
 
 ### 🧑‍💻 ¿Qué busco?
 
-- **Posiciones junior de NOC / Monitoreo, Soporte tecnico bilingue, SOC Analyst N1, Infraestructura / DevOps y GRC. QA Automation como segunda vía** 
+- **Posiciones junior de NOC / Monitoreo, Soporte técnico bilingüe, SOC Analyst N1, Infraestructura / DevOps y GRC.**
+- QA Automation / SDET.
 - **Disponible para sumarme ahora, presencial en AMBA (Argentina) o remoto (Global).** 
 
 ---
@@ -91,7 +92,7 @@ Sostengo en producción un sistema de gestión de inventario gastronómico
 
 | Repo | Foco |
 |---|---|
-| **StockFreezer App*** | Credenciales Disponibles bajo solicitud, ***Repo Privado*** |
+| ***StockFreezer App*** | Credenciales disponibles bajo solicitud. --> ***Repo Privado*** |
 | [StockFreezer-QA-AUTOMATION-Framework](https://github.com/Goriguen/StockFreezer-QA-AUTOMATION-Framework) | Testing E2E/API con Playwright, BDD, CI/CD |
 | [StockFreezer-CYBERSECURITY-Framework](https://github.com/Goriguen/StockFreezer-CYBERSECURITY-Framework) | Hardening y automatización de seguridad sobre infraestructura propia en producción |
 
