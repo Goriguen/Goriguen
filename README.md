@@ -1,6 +1,6 @@
 ### Hola, soy Gabriel Origüen
-## 🎯 Infraestructura & Ciberseguridad | NOC / SOC | DevOps: Linux - Docker -CI/CD - Ansible | 
-## 🎯 QA Automation: Playwright - Python | Ingles B2+/C1
+## 🌐💻 Infraestructura & Ciberseguridad | NOC / SOC | DevOps: Linux - Docker -CI/CD - Ansible | 
+## ⚙️🛠️ QA Automation: Playwright - Python | Ingles B2+/C1
 
 Sostengo en producción un sistema de gestión de inventario gastronómico
   con un cliente real usándolo todos los días. Si se cae, el cliente no
@@ -11,12 +11,12 @@ Sostengo en producción un sistema de gestión de inventario gastronómico
   le creo, reviso la salida y la corrijo. Antes que la herramienta aporto
   criterio: busco la causa del problema, no el síntoma.
 
-  Ocho años previos en cocinas de alta exigencia, coordinando equipos bajo
+  🔥Ocho años previos en cocinas de alta exigencia, coordinando equipos bajo
   presión, con turnos y decisiones tomadas con el servicio abierto.
 
 ---
 
-## 🎯 A QUE ME ENFRENTÉ  (**lo que más dice de como trabajo**)
+## ⚡ A QUE ME ENFRENTÉ  (**lo que más dice de como trabajo**)
 
   * Un healthcheck que daba verde sin verificar nada.
     Un chequeo que nunca falla no avisa: tranquiliza.
@@ -73,12 +73,14 @@ Sostengo en producción un sistema de gestión de inventario gastronómico
 
 ***Certificaciones***
 
--Manual QA Tester (Educacion IT, 2026) 
+- Manual QA Tester (Educacion IT, 2026) 
 - APIs con Java/Spring Boot y POO con Java (TodoCodeAcademy, 2026)
 - Git: Desarrollo Colaborativo (Educacion IT, 2025)
 - C# 1 y 2 con .NET y SQL Server (MaxiPrograma, 2025)
 
-### 🚀 ¿Qué busco?
+---
+
+### 🧑‍💻 ¿Qué busco?
 
 - **Posiciones junior de NOC / Monitoreo, Soporte tecnico bilingue, SOC Analyst N1, Infraestructura / DevOps y GRC. QA Automation como segunda vía** 
 - **Disponible para sumarme ahora, presencial en AMBA (Argentina) o remoto (Global).** 
