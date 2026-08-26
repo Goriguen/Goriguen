@@ -1,6 +1,8 @@
 ### Hola, soy Gabriel Origüen
+
+## ⚙️🛠️ QA Automation: Playwright - Python - Java |
 ## 🌐💻 Infraestructura & Ciberseguridad | NOC / SOC | DevOps: Linux - Docker -CI/CD - Ansible | 
-## ⚙️🛠️ QA Automation: Playwright - Python | Ingles B2+/C1
+
 
 Sostengo en producción un sistema de gestión de inventario gastronómico
   con un cliente real usándolo todos los días. Si se cae, el cliente no
@@ -11,8 +13,8 @@ Sostengo en producción un sistema de gestión de inventario gastronómico
   le creo, reviso la salida y la corrijo. Antes que la herramienta aporto
   criterio: busco la causa del problema, no el síntoma.
 
-  🔥Ocho años previos en cocinas de alta exigencia, coordinando equipos bajo
-  presión, con turnos y decisiones tomadas con el servicio abierto.
+  🔥Ocho años previos en cocinas de alta exigencia, habiendo coordinado equipos bajo
+  presión durante temporadas, con turnos y decisiones tomadas con el servicio abierto.
 
 ---
 
