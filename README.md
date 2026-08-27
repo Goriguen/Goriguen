@@ -1,7 +1,7 @@
 ### Hola, soy Gabriel Origüen
 
-## ⚙️🛠️ QA Automation: Playwright - Python - Java |
-## 🌐💻 Infraestructura & Ciberseguridad | NOC / SOC | DevOps: Linux - Docker -CI/CD - Ansible | 
+## ⚙️🛠️ QA Automation
+## 🌐💻 Infraestructura & Ciberseguridad
 
 
 Sostengo en producción un sistema de gestión de inventario gastronómico
