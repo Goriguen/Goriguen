@@ -1,94 +1,57 @@
-### Hola, soy Gabriel Origüen
+  ###Hola, soy Gabriel.
+  ##⚙️🛠️ QA Automation Strategy | 🌐💻 Infraestructura, Cloud & Ciberseguridad
 
-## ⚙️🛠️ QA Automation
-## 🌐💻 Infraestructura & Ciberseguridad
+  Sostengo en producción un sistema de gestión de inventario con un cliente real operándolo a diario. Mi enfoque no está en la codificación manual de features, sino en la arquitectura, la seguridad y la
+  resiliencia de la infraestructura.
 
+  Diseño la estrategia, orquesto flujos de trabajo asistidos por IA (Infrastructure as Code, automatización de testing) y audito rigurosamente los resultados. Busco la causa raíz del problema, no el
+  síntoma.
 
-Sostengo en producción un sistema de gestión de inventario gastronómico
-  con un cliente real usándolo todos los días. Si se cae, el cliente no
-  puede trabajar.
+  🔥 Background: 8 años en cocinas de alta exigencia, coordinando equipos bajo presión extrema durante temporadas altas. Hoy aplico esa misma disciplina, sentido de urgencia y control de crisis (triage,
+  shift handover) a la gestión de incidentes en entornos IT.
 
-  Mi rol no es escribir el código: es el análisis, la seguridad y la
-  infraestructura. Dirijo IA para construir y valido lo que devuelve - no
-  le creo, reviso la salida y la corrijo. Antes que la herramienta aporto
-  criterio: busco la causa del problema, no el síntoma.
+  ⚡ A QUÉ ME ENFRENTÉ (Mi enfoque de Troubleshooting):
 
-  🔥Ocho años previos en cocinas de alta exigencia, habiendo coordinado equipos bajo
-  presión durante temporadas, con turnos y decisiones tomadas con el servicio abierto.
+  • Monitoreo Real: Detecté un healthcheck que daba verde sin verificar dependencias reales. Un chequeo que nunca falla no avisa, solo genera falsa seguridad. Lo reescribí para validar la disponibilidad
+  efectiva.
+  • Redes y Proxies: La caché de DNS en el reverse proxy (Nginx) seguía apuntando a un contenedor viejo tras un despliegue. Perseguí el rastro hasta la causa raíz en lugar de reiniciar el servicio y mirar
+  para otro lado.
+  • Seguridad e Infraestructura: Un override silencioso de cloud-init reactivaba el login por contraseña en mi VPS. El servidor "decía" estar endurecido, pero la auditoría demostró lo contrario. Corregido y
+  securizado.
+  • Protección Perimetral: En el límite de peticiones por IP (Rate Limiting), descubrí que tomar la primera dirección del encabezado es falsificable. Implementé la validación estricta desde el proxy de
+  confianza.
 
----
+  Lo que aprendí: Una configuración no está aplicada hasta que la verificás empíricamente en el servidor. Los incidentes rara vez son misterios técnicos; son supuestos que nadie validó.
 
-## ⚡ A QUE ME ENFRENTÉ  (**lo que más dice de como trabajo**)
+  🧠 STACK TÉCNICO Y OPERATIVO
 
-  * Un healthcheck que daba verde sin verificar nada.
-    Un chequeo que nunca falla no avisa: tranquiliza.
+  • Infraestructura & OS: Linux (VPS en producción), Bash, SSH Hardening (PKI, Zero Trust local), Windows, PowerShell.
+  • Contenedores & Redes: Docker, Docker Compose (Producción, Demo, QA), Nginx (Reverse Proxy, SSL/Certbot), GHCR.
+  • CI/CD & Automatización: GitHub Actions (Pipelines por entorno, rollback automático), Ansible (Playbooks, validación dry-run).
+  • Calidad & QA Automation: Playwright (E2E), BDD/Gherkin, RestAssured, Postman/Newman, SonarQube, JaCoCo, JUnit. Diseño de estrategia de pruebas de caja negra.
+  • Seguridad: RBAC, JWT, OWASP, Mínimo Privilegio, Defensa contra prompt injection, Saneamiento de entradas.
+  • Orquestación IA: Integración avanzada de Spring AI, DeepSeek, Ollama. Diseño de prompts sistémicos y dirección de agentes autónomos para acelerar el ciclo de desarrollo.
 
-  * Cache de DNS en el reverse proxy: nginx seguía apuntando al contenedor
-    viejo. Lo perseguí hasta la causa en vez de reiniciar y seguir.
+  🗣️ CÓMO TRABAJO
 
-  * Un override de cloud-init reactivaba en silencio el login por
-    contraseña que yo había deshabilitado. El servidor "decía" estar
-    endurecido y no lo estaba.
+  • Lógica Deductiva: Desgloso requerimientos complejos y anticipo casos borde (edge cases) antes de la implementación.
+  • Trazabilidad Extrema: Cada incidente se documenta con causa raíz y acción correctiva (Shift Handover ITIL-style). Todo cambio nace y muere en un ticket.
+  • Autonomía: Valido hipótesis cruzando documentación oficial y pruebas empíricas. No aplico un fix que no entiendo hasta su base estructural.
 
-  * En el limite de peticiones por IP, tomar la primera direccion del
-    encabezado del proxy es falsificable. Uso la que agrega el proxy de
-    confianza.
+  🎓 FORMACIÓN & CERTIFICACIONES
 
-  Lo que aprendí: una configuración no esta aplicada hasta que la
-  verificas en el servidor, y la mayoría de los incidentes no son
-  misterios técnicos - son supuestos que nadie verifico.
+  • Tecnicatura en Tecnologías de la Información (UTN - En Curso): Análisis de Sistemas de Información (ASI), SDLC, Modelado de Procesos.
+  • QA Manual Tester (2026) | Git y Desarrollo Colaborativo | Diseño de APIs (Arquitectura).
+  • Idiomas: Español (Nativo), Inglés (B2+ Técnico fluido), Svenska (A2).
+
+  🧑‍💻 QUÉ ESTOY BUSCANDO
+  Oportunidades donde pueda aplicar mi pensamiento sistémico y resolución de problemas bajo presión:
+
+  • Junior NOC Analyst / Monitoreo / Soporte Técnico N2.
+  • Junior Cloud Ops / Infraestructura / DevOps.
+  • QA Automation Engineer.
   
----
-
-### 🧠 STACK TÉCNICO
-
-| Categoría | Tecnologías / Herramientas |
-| :--- | :--- |
-| **Sistemas y Operaciones** | **Linux** (VPS en produccion), **SSH**, **Bash**, usuarios / permisos / grupos, lectura de logs, Windows, **PowerShell** |
-| **Seguridad** | Hardening SSH (clave publica, sin root ni contraseñas), mínimo privilegio, rate limiting y anti fuerza bruta, gestión de secretos, JWT/RBAC, OWASP (saneamiento de entradas), defensa contra prompt injection |
-| **Contenedores y Despliegue** | Docker, Docker Compose (tres entornos  aislados: produccion, demo, QA), **GHCR** |
-| **Red y Servicio** | nginx (reverse proxy, SSL con certbot, basic auth), healthchecks de contenedores |
-| **CI/CD** | GitHub Actions (pipelines por entorno, despliegue y vuelta atras), Git/GitHub |
-| **Automatización / IaC** | Ansible (playbooks, validados en dry-run), n8n |
-| **Monitoreo y Diagnóstico** | Logs de Linux / Docker / nginx, diagnostico con causa raiz documentada, escalamiento, traspaso de turno escrito |
-| **Testing & Calidad** | Playwright (E2E), pytest, Postman / Newman, Gherkin/BDD, JUnit, SonarQube y JaCoCo (analisis estatico y cobertura, local) |
-| **Datos** | MySQL , SQL, SQL Server  |
-| **Integración de IA** | Spring AI, DeepSeek, Ollama (llama3),  diseño de prompts, validación de respuestas del lado del servidor, dirección de agentes |
-| **Backend** | **Java**(Spring Boot 3) , **JPA/Hibernate** , **REST APIs**.  Modelo de datos y reglas de negocio definidos por mi; el código no lo tipeo yo |
-|**Gestión** | **Jira**, Scrum, Github Projects, documentación técnica |
-|**Seguridad & Infraestructura** | **Linux (gestión de usuarios, permisos, grupos), SSH Hardening (autenticación por clave, principio de mínimo privilegio), Ansible (Infrastructure as Code), Docker, Nginx** |
-| **Idiomas** | Español (Nativo), **Inglés B2+**, Svenska (A2) |
-
----
-
-### 🗣️ Cómo trabajo
-
-* **Lógica Deductiva:** Desgloso requerimientos complejos, detecto inconsistencias funcionales y anticipo casos borde antes de la implementación.
-* **Comunicación Técnica:** Cada incidente documentado con causa raíz y acción correctiva, cada cambio atado a su ticket. En NOC y soporte eso es el traspaso de turno.
-* **Autonomía:** Valido hipótesis combinando documentación oficial, pruebas manuales y automatizadas, hasta la causa raíz. No aplico una solución que no entiendo - venga de un proveedor, de la documentación o de una IA.
----
-
-### 🎓 Formación Académica
-
-* **Tecnicatura en Tecnologías de la Información** | *UTN* **En Curso**
-  * **Highlight:** → Análisis de Sistemas de Información (ASI) *aprobada*: relevamiento de requerimientos, modelado de procesos, SDLC, casos de uso.
-
-***Certificaciones***
-
-- Manual QA Tester (Educacion IT, 2026) 
-- APIs con Java/Spring Boot y POO con Java (TodoCodeAcademy, 2026)
-- Git: Desarrollo Colaborativo (Educacion IT, 2025)
-- C# 1 y 2 con .NET y SQL Server (MaxiPrograma, 2025)
-
----
-
-### 🧑‍💻 ¿Qué busco?
-
-- **Posiciones junior de NOC / Monitoreo, Soporte técnico bilingüe, SOC Analyst N1, Infraestructura / DevOps y GRC.**
-- QA Automation / SDET.
-- **Disponible para sumarme ahora, presencial en AMBA (Argentina) o remoto (Global).** 
-
----
+  ──────
 
 ## 📂 Proyectos destacados
 
