@@ -62,7 +62,7 @@ Oportunidades donde pueda aplicar mi pensamiento sistémico y resolución de pro
 | Repo | Foco |
 |---|---|
 | ***StockFreezer App*** | Credenciales disponibles bajo solicitud. --> ***Repo Privado*** |
-| [StockFreezer-QA-AUTOMATION-Framework](https://github.com/Goriguen/StockFreezer-QA-AUTOMATION-Framework) | Testing E2E/API con Playwright, BDD, CI/CD |
+| [StockFreezer-QA-AUTOMATION-Framework](https://github.com/Goriguen/StockFreezer-QA-AUTOMATION-Framework) | Testing E2E/API con Playwright, BDD, CI/CD *contra mi propia app* |
 | [StockFreezer-CYBERSECURITY-Framework](https://github.com/Goriguen/StockFreezer-CYBERSECURITY-Framework) | Hardening y automatización de seguridad sobre infraestructura propia en producción |
 
 ---
