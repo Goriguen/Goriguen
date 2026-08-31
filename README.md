@@ -12,16 +12,16 @@
 
   ## ⚡ A que me enfrenté (Mi enfoque de Troubleshooting real)
 
-  - **Seguridad e Infraestructura (Auditoria SSH)**: Aplique hardening en mi VPS asumiendo que el login por contrasena y el usuario root estaban desactivados. Al auditar mi propio servidor, descubri que una
-  configuracion heredada seguia permitiendo el acceso por password. Re-configure el sshd_config de raiz, bloquee a root y force el uso exclusivo de llaves asimetricas (Public/Private Key) con Passphrase,
+  - **Seguridad e Infraestructura (Auditoría SSH)**: Apliqué hardening en mi VPS asumiendo que el login por contraseña y el usuario root estaban desactivados. Al auditar mi propio servidor, descubrí que una
+  configuración heredada seguía permitiendo el acceso por password. Re-configure el sshd_config de raíz, bloquee a root y force el uso exclusivo de llaves asimétricas (Public/Private Key) con Passphrase,
   eliminando el riesgo de ataques de fuerza bruta.
 
-  - **Arquitectura de CI/CD (Mitigacion de Riesgos)**: Necesitaba centralizar el despliegue con Docker Compose pero proteger al cliente final. Diseñe una estrategia de ramificacion en GitHub Actions: el entorno
-  Demo recibe deploys automaticos (Continuous Deployment), pero Produccion tiene un "gate" estricto de despliegue manual (Continuous Delivery). Mi regla de oro operativa: si una release va a fallar, que
+  - **Arquitectura de CI/CD (Mitigación de Riesgos)**: Necesitaba centralizar el despliegue con Docker Compose pero proteger al cliente final. Diseñe una estrategia de ramificación en GitHub Actions: el entorno
+  Demo recibe deploys automáticos (Continuous Deployment), pero Producción tiene un "gate" estricto de despliegue manual (Continuous Delivery). Mi regla de oro operativa: si una release va a fallar, que
   explote en QA o Demo, pero Produccion no se toca sin validacion humana.
 
   - **Troubleshooting de Base de Datos (Integridad en MySQL)**: Tras agregar nuevas reglas de negocio y columnas, los registros legacy quedaron inconsistentes (valores nulos que el backend leia, pero que
-  rompian la interfaz grafica misteriosamente). Para diagnosticarlo, levante un tunel SSH seguro hacia el servidor, me conecte directo a la base de datos con DBeaver y debuggee las anomalias registro por
+  rompían la interfaz grafica misteriosamente). Para diagnosticarlo, levante un tunel SSH seguro hacia el servidor, me conecte directo a la base de datos con DBeaver y debuggee las anomalias registro por
   registro cruzando datos con la IA hasta sanear el esquema.
 
 ---
