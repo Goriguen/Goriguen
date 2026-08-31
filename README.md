@@ -10,14 +10,17 @@ Diseño la estrategia, orquesto flujos de trabajo asistidos por IA (Infrastructu
 
 ---
 
-### ⚡ A qué me enfrenté (mi enfoque de troubleshooting)
+  ### ⚡ A que me enfrenté (Mi enfoque de Troubleshooting real)
 
-- **Monitoreo Real:** Detecté un healthcheck que daba verde sin verificar dependencias reales. Un chequeo que nunca falla no avisa, solo genera falsa seguridad. Lo reescribí para validar la disponibilidad efectiva.
-- **Redes y Proxies:** La caché de DNS en el reverse proxy (Nginx) seguía apuntando a un contenedor viejo tras un despliegue. Perseguí el rastro hasta la causa raíz en lugar de reiniciar el servicio y mirar para otro lado.
-- **Seguridad e Infraestructura:** Un override silencioso de cloud-init reactivaba el login por contraseña en mi VPS. El servidor "decía" estar endurecido, pero la auditoría demostró lo contrario. Corregido y securizado.
-- **Protección Perimetral:** En el límite de peticiones por IP (Rate Limiting), descubrí que tomar la primera dirección del encabezado es falsificable. Implementé la validación estricta desde el proxy de confianza.
-
-> Lo que aprendí: una configuración no está aplicada hasta que la verificás empíricamente en el servidor. Los incidentes rara vez son misterios técnicos; son supuestos que nadie validó.
+  • Seguridad e Infraestructura (Auditoria SSH): Apliqué hardening en mi VPS asumiendo que el login por contraseña y el usuario root estaban desactivados. Al auditar mi propio servidor, descubrí que una
+  configuración heredada seguía permitiendo el acceso por password. Re-configure el sshd_config de raiz, bloquee a root y force el uso exclusivo de llaves asimétricas (Public/Private Key) con Passphrase,
+  eliminando el riesgo de ataques de fuerza bruta.
+  • Arquitectura de CI/CD (Mitigación de Riesgos): Necesitaba centralizar el despliegue con Docker Compose pero proteger al cliente final. Diseñe una estrategia de ramificación en GitHub Actions: el entorno
+  Demo recibe deploys automáticos (Continuous Deployment), pero Producción tiene un "gate" estricto de despliegue manual (Continuous Delivery). Mi regla de oro operativa: si una release va a fallar, que
+  explote en QA o Demo, pero Producción no se toca sin validación humana.
+  • Troubleshooting de Base de Datos (Integridad en MySQL): Tras agregar nuevas reglas de negocio y columnas, los registros "legacy" quedaron inconsistentes (valores nulos que el backend leía, pero que
+  rompían la interfaz grafica misteriosamente). Para diagnosticarlo, levante un túnel SSH seguro hacia el servidor, me conecte directo a la base de datos con DBeaver y debuggee las anomalías registro por
+  registro cruzando datos con la IA hasta sanear el esquema.
 
 ---
 
@@ -57,15 +60,19 @@ Oportunidades donde pueda aplicar mi pensamiento sistémico y resolución de pro
 - QA Automation Engineer
   ──────
 
-## 📂 Proyectos destacados
+## 📂 Proyectos destacados y Arquitectura
 
-| Repo | Foco |
-|---|---|
-| ***StockFreezer App*** | Credenciales disponibles bajo solicitud. --> ***Repo Privado*** |
-| [StockFreezer-QA-AUTOMATION-Framework](https://github.com/Goriguen/StockFreezer-QA-AUTOMATION-Framework) | Testing E2E/API con Playwright, BDD, CI/CD *contra mi propia app* |
-| [StockFreezer-CYBERSECURITY-Framework](https://github.com/Goriguen/StockFreezer-CYBERSECURITY-Framework) | Hardening y automatización de seguridad sobre infraestructura propia en producción |
+  | Repo / Componente | Foco y Estrategia |
+  |---|---|
+  | 🔒 ***StockFreezer App (Core)*** | **[Repositorio Privado]** Sistema central de gestion de inventario. Mantenido en privado por tratarse de un producto comercial en produccion activa (Propiedad
+  Intelectual y Seguridad). Arquitectura completa (Backend, Frontend, BBDD). *Demo y credenciales de acceso disponibles bajo solicitud para entrevistas.* |
+  | 🧪 [StockFreezer QA Framework](https://github.com/Goriguen/StockFreezer-QA-AUTOMATION-Framework) | **Motor de validacion externo (Caja Negra).** Como el core es privado, diseñe este framework publico
+  para auditar la salud de la API y la UI desde afuera. Usa Playwright y reglas de negocio en Gherkin (BDD). Se ejecuta de forma autonoma en CI/CD (GitHub Actions) para asegurar que ningun despliegue rompa
+  la produccion. |
+  | 🛡️ [StockFreezer CYBERSECURITY](https://github.com/Goriguen/StockFreezer-CYBERSECURITY-Framework) | **Infraestructura y Hardening.** Repositorio enfocado en la seguridad operativa de la VPS en
+  produccion. Contiene la logica de automatizacion (Ansible, Bash) para el endurecimiento del servidor Linux: configuracion estricta de SSH, politicas de firewall, y aislamiento de los contenedores Docker. |
 
----
+  ---
 
 ### 📊 Actividad
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Goriguen&show_icons=true&hide_title=true&count_private=true&hide=issues,contribs&theme=graywhite)
