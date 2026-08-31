@@ -1,6 +1,6 @@
-### Hola, soy Gabriel 👋
+## Hola, soy Gabriel 👋
 
-## ⚙️🛠️ QA Automation Strategy | 🌐💻 Infraestructura, Cloud & Ciberseguridad
+### ⚙️🛠️ QA Automation Strategy | 🌐💻 Infraestructura, Cloud & Ciberseguridad
 
 - Sostengo en producción un sistema de gestión de inventario con un cliente real operándolo a diario. Mi enfoque no está en la codificación manual de features, sino en la arquitectura, la seguridad y la resiliencia de la infraestructura.
 
@@ -10,7 +10,7 @@
 
 ---
 
-  ### ⚡ A que me enfrenté (Mi enfoque de Troubleshooting real)
+  ## ⚡ A que me enfrenté (Mi enfoque de Troubleshooting real)
 
   - **Seguridad e Infraestructura (Auditoria SSH)**: Aplique hardening en mi VPS asumiendo que el login por contrasena y el usuario root estaban desactivados. Al auditar mi propio servidor, descubri que una
   configuracion heredada seguia permitiendo el acceso por password. Re-configure el sshd_config de raiz, bloquee a root y force el uso exclusivo de llaves asimetricas (Public/Private Key) con Passphrase,
@@ -26,7 +26,7 @@
 
 ---
 
-### 🧠 Stack técnico y operativo
+## 🧠 Stack técnico y operativo
 
 - **Infraestructura & OS:** Linux (VPS en producción), Bash, SSH Hardening (PKI, Zero Trust local), Windows, PowerShell
 - **Contenedores & Redes:** Docker, Docker Compose (Producción, Demo, QA), Nginx (Reverse Proxy, SSL/Certbot), GHCR
@@ -37,7 +37,7 @@
 
 ---
 
-### 🗣️ Cómo trabajo
+## 🗣️ Cómo trabajo
 
 - **Lógica Deductiva:** Desgloso requerimientos complejos y anticipo casos borde (edge cases) antes de la implementación.
 - **Trazabilidad Extrema:** Cada incidente se documenta con causa raíz y acción correctiva (Shift Handover ITIL-style). Todo cambio nace y muere en un ticket.
@@ -45,7 +45,7 @@
 
 ---
 
-### 🎓 Formación & certificaciones
+## 🎓 Formación & certificaciones
 
 - Tecnicatura en Tecnologías de la Información (UTN - En Curso): Análisis de Sistemas de Información (ASI), SDLC, Modelado de Procesos
 - QA Manual Tester (2026) | Git y Desarrollo Colaborativo | Diseño de APIs (Arquitectura)
@@ -53,7 +53,7 @@
 
 ---
 
-### 🧑‍💻 Qué estoy buscando
+## 🧑‍💻 Qué estoy buscando
 
 Oportunidades donde pueda aplicar mi pensamiento sistémico y resolución de problemas bajo presión:
 
@@ -65,21 +65,19 @@ Oportunidades donde pueda aplicar mi pensamiento sistémico y resolución de pro
 ---
   
 
-## 📂 Proyectos destacados y Arquitectura
+# 📂 Proyectos destacados y Arquitectura
 
-- 🔒 **StockFreezer App (Core) — [Repositorio Privado]**
-  Sistema central de gestion de inventario. Mantenido en privado por tratarse de un producto comercial en produccion activa (Propiedad Intelectual y Seguridad). Arquitectura completa (Backend, Frontend,
-BBDD). *Demo y credenciales de acceso disponibles bajo solicitud para entrevistas.*
+| Repo / Componente | Foco y Estrategia |
+|---|---|
+| 🔒 ***StockFreezer App (Core)*** | **[Repositorio Privado]** Sistema central de gestion de inventario. Mantenido en privado por tratarse de un producto comercial en produccion activa (Propiedad Intelectual y Seguridad). Arquitectura completa (Backend, Frontend, BBDD). *Demo y credenciales de acceso disponibles bajo solicitud para entrevistas.* |
+| 🧪 [StockFreezer QA Framework](https://github.com/Goriguen/StockFreezer-QA-AUTOMATION-Framework) | **Motor de validacion externo (Caja Negra).** Como el core es privado, diseñe este framework publico para auditar la salud de la API y la UI desde afuera. Usa Playwright y reglas de negocio en Gherkin (BDD). Se ejecuta de forma autonoma en CI/CD (GitHub Actions) para asegurar que ningun despliegue rompa la produccion. |
+| 🛡️ [StockFreezer CYBERSECURITY](https://github.com/Goriguen/StockFreezer-CYBERSECURITY-Framework) | **Infraestructura y Hardening.** Repositorio enfocado en la seguridad operativa de la VPS en produccion. Contiene la logica de automatizacion (Ansible, Bash) para el endurecimiento del servidor Linux: configuracion estricta de SSH, politicas de firewall, y aislamiento de los contenedores Docker. |
 
-- 🧪 **[StockFreezer QA Framework](https://github.com/Goriguen/StockFreezer-QA-AUTOMATION-Framework) — Motor de validacion externo (Caja Negra)**
-  Como el core es privado, diseñe este framework publico para auditar la salud de la API y la UI desde afuera. Usa Playwright y reglas de negocio en Gherkin (BDD). Se ejecuta de forma autonoma en CI/CD
-(GitHub Actions) para asegurar que ningun despliegue rompa la produccion.
 
-- 🛡️ **[StockFreezer CYBERSECURITY](https://github.com/Goriguen/StockFreezer-CYBERSECURITY-Framework) — Infraestructura y Hardening**
-  Repositorio enfocado en la seguridad operativa de la VPS en produccion. Contiene la logica de automatizacion (Ansible, Bash) para el endurecimiento del servidor Linux: configuracion estricta de SSH,
-politicas de firewall, y aislamiento de los contenedores Docker.
 
   ---
+
+
 
 ### 📊 Actividad
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Goriguen&show_icons=true&hide_title=true&count_private=true&hide=issues,contribs&theme=graywhite)
