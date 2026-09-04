@@ -37,7 +37,7 @@
 ##  Formación & certificaciones 🎓
 
 - Tecnicatura en Tecnologías de la Información (UTN - En Curso): Análisis de Sistemas de Información (ASI), SDLC, Modelado de Procesos
-- QA Manual Tester (2026) | Git y Desarrollo Colaborativo | Diseño y consumo de APIs REST | C# Nivel 1 & 2 |
+- QA Manual Tester (2026) **| Git** y Desarrollo Colaborativo **|** Diseño y consumo de **APIs REST |** **C# Nivel 1 & 2 |**
 - Idiomas: Español (Nativo), Inglés (B2+), Svenska (A2)
 
 
