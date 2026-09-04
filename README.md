@@ -50,7 +50,7 @@
 |---|---|
 | 🔒 ***StockFreezer App (Core)*** | **[Repositorio Privado]** Sistema central de gestion de inventario. Mantenido en privado por tratarse de un producto comercial en produccion activa (Propiedad Intelectual y Seguridad). Arquitectura completa (Backend, Frontend, BBDD). *Demo y credenciales de acceso disponibles bajo solicitud para entrevistas.* |
 | 🧪 [StockFreezer QA Framework](https://github.com/Goriguen/StockFreezer-QA-AUTOMATION-Framework) | **Framework de pruebas externo (caja negra).** Prueba la API y la UI del sistema sin acceder al código del core. Utiliza Playwright y Gherkin para validar flujos y reglas de negocio. Se ejecuta mediante GitHub Actions después de los despliegues. |
-| 🛡️ [StockFreezer CYBERSECURITY](https://github.com/Goriguen/StockFreezer-CYBERSECURITY-Framework) | **Infraestructura y Hardening.** Hardening y automatización de infraestructura. Automatización mediante Ansible y Bash para configurar y mantener un VPS Linux: endurecimiento de SSH y configuración segura de Docker. |
+| 🛡️ [StockFreezer CYBERSECURITY](https://github.com/Goriguen/StockFreezer-CYBERSECURITY-Framework) | **Infraestructura y Hardening.** Laboratorio SecOps y Hardening para StockFreezer. Abarca automatización de infraestructura (Ansible, Docker, CI/CD) y seguridad aplicativa (RBAC, JWT) documentado mediante reportes tácticos **SOC**. |
 
 
 
